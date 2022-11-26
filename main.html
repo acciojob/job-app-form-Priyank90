@@ -9,35 +9,38 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="">
-		
-		<label for="name">Name :</label>
-		<input id="name" type="text"
-		 name="name" placeholder="Enter your Name" ><br><br>
+		<label for="name">Name :<input id="name" type="text"
+			name="name" placeholder="Enter your Name" required></label>
+		<br><br>
 
-		    <label for="email">Email :</label>
-			<input id="email" type="email"
-			 placeholder="xyz@gmail.com" ><br><br>
+		    <label for="email">Email :<input id="email" type="email"
+				placeholder="xyz@gmail.com" required></label>
+			<br><br>
 	
-		 <label for="gender">Gender :</label>
-		 <input id="gender" type="radio" name="gender"> Male
-		 <input id="gender" type="radio" name="gender"> Female
-		 <input id="gender" type="radio" name="gender"> Other<br><br>
+		 <label for="gender">Gender :
+			<input id="gender" type="radio" name="gender"required> Male
+		 <input id="gender" type="radio" name="gender"required> Female
+		 <input id="gender" type="radio" name="gender"required> Other
+		 </label>
+		 <br><br>
 	
-		 <label for="Laptop">Laptop Brands :</label>
-		 <select name="laptop" id="laptop">
-			<option value="Appple">Apple</option>
-			<option value="Asus">Asus</option>
-			<option value="HP">HP</option>
-		</select><br><br>
+		 <label for="Laptop">Laptop Brands :
+			<select name="laptop" id="laptop">
+				<option value="Appple">Apple</option>
+				<option value="Asus">Asus</option>
+				<option value="HP">HP</option>
+			</select>
+		 </label>
+		<br><br>
 	
-		<label for="age">Age :</label>
-		<input id="age" type="number" name="age" placeholder="Enter your age"><br><br>
+		<label for="age">Age :<input id="age" type="number" name="age" placeholder="Enter your age"required></label>
+		<br><br>
 	
-		<label for="dob">DOB :</label>
-		<input id="dob" type="date" ><br><br>
+		<label for="dob">DOB :<input id="dob" type="date" required></label>
+		<br><br>
 	
-         <label for="password">Password :</label>
-		 <input id="password" type="password" placeholder="Enter Password"><br><br>
+         <label for="password">Password :<input id="password" type="password" placeholder="Enter Password"required></label>
+		 <br><br>
 		
 		 <button type="submit">Submit</button>
 	</form>
